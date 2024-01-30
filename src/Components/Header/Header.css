@@ -1,0 +1,40 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.active-link {
+    color: #F2994A;
+    font-weight: bold;
+}
+    
+.logo {
+    cursor: pointer;
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+li {
+    cursor: pointer;
+    color: #F2994A;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    list-style-type: none;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.pro {
+    color: #F2994A;
+}
